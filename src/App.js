@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Contact from './components/Contact/Contact';
+import Filleul from './components/Filleul/Filleul';
+import Parrain from './components/Parrain/Parrain';
+import Souscription from './components/Souscription/Souscription';
+import PackYasmine from './components/PackYasmine/PackYasmine';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Contact />
+      <Filleul />
+      <Parrain />
+      <Souscription />
+      <PackYasmine />
     </div>
   );
 }

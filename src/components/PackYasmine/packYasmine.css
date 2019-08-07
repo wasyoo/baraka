@@ -1,0 +1,31 @@
+.pack-yasmine-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ee8d32;
+}
+.pack-yasmine-title{
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  width: fit-content;
+  margin-top: 50px;
+}
+.pack-yasmine-title .yasmine{
+  font-family: 'Great Vibes', cursive;
+  font-size: 120px;
+  color: #fff;
+}
+.pack-yasmine-title .pack{
+  color: #fff;
+  background: #cd1530;
+  padding: 3px 8px;
+  font-weight: 500;
+  border-radius: 20px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 0;
+  position: absolute;
+  top: 10px;
+  left: 125px;
+  font-size: 30px;
+}

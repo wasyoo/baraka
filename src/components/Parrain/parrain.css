@@ -1,0 +1,26 @@
+.parrain-content {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  background: #ff8e32;
+  padding: 50px 100px;
+}
+.parrain-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.parrain-gift-msg strong{
+  color: #fff;
+  font-size: 40px;
+}
+.parrain-gift img{
+  width: 200px;
+  height: 150px;
+}
+.parrain-gift-card{
+  background: #cd1530;
+  padding: 15px;
+  color: #fff;
+  margin-bottom: 50px;
+}

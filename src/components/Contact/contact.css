@@ -1,0 +1,37 @@
+.contact-btn {
+  position: fixed;
+  bottom: 20%;
+  right: 10%;
+  z-index: 1000;
+}
+.contact-msg {
+  background: #f78f1e;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  line-height: 13px;
+  width: 100px;
+  position: relative;
+  left: 25px;
+}
+.contact-phone {
+  background: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bolder;
+  color:red;
+}
+
+.contact-phone-icon{
+  background: red;
+  color: #fff;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.contact-phone-num{
+  margin-left: 10px;
+}

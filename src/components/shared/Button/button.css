@@ -1,0 +1,16 @@
+.button-submit{
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 5px;
+}
+.validate{
+  background: #fff;
+  color: red;
+}

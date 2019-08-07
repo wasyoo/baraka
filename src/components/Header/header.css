@@ -1,0 +1,106 @@
+.header {
+  height: 500px;
+  position: relative;
+}
+.logo{
+  padding: 10px 15px;
+  background: #fff;
+  width: 250px;
+  height: 80px;
+  margin: auto;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  text-align: center;
+}
+.logo img{
+  width: 200px;
+}
+.header-menu{
+  position: absolute;
+  top: 60px;
+  right: 10%;
+}
+.header-menu img{
+  width: 30px;
+}
+.header-menu-content {
+  cursor: pointer;
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+.header-menu-dropdown{
+  position: absolute;
+  top: 32px;
+  right: 0;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 150px;
+  display: none;
+}
+.header-menu-content:hover .header-menu-dropdown{
+  display: block;
+}
+.header-menu-item{
+  background: #d52932;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.header-menu-item a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.header-menu-item:hover {
+  background: #ee8d32;
+}
+
+.header-message{
+  font-style: italic;
+  color: #fff;
+}
+.header-message-content{
+  position: relative;
+  height: 200px;
+}
+.header-message {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+.header-message strong{
+  font-size: 50px;
+}
+.header-message span{
+  font-size: 20px;
+  font-weight: 500;
+}
+.the-parrainage{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.the-parrainage .the{
+  font-family: 'Great Vibes', cursive;
+  font-size: 120px;
+  color: #fff;
+}
+.the-parrainage .parrainage{
+  color: #fff;
+  background: #ee8d32;
+  padding: 3px 8px;
+  font-weight: 500;
+  border-radius: 20px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 0;
+  position: absolute;
+  top:35px;
+  left:135px;
+}
+.the-parrainage-content{
+  position: relative;
+}

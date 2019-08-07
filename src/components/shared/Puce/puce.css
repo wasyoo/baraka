@@ -1,0 +1,22 @@
+.puce {
+  width: 25px;
+  height: 13px;
+  background: red;
+  border-left: 0;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-right: 10px;
+  position: relative;
+  margin: 0 5px;
+}
+
+.puce::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+}

@@ -1,0 +1,64 @@
+.souscription-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.souscription-title{
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  width: fit-content;
+}
+.souscription-title .souscription{
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  color: #fff;
+  letter-spacing: -4px;
+}
+.souscription-title .parrainage{
+  color: #fff;
+  background: #ee8d32;
+  padding: 3px 8px;
+  font-weight: 500;
+  border-radius: 20px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 0;
+  position: absolute;
+  top:20px;
+  left:90px;
+}
+.souscription-form-content{
+  width: 100%;
+  padding: 0 100px;
+  margin-top: 20px;
+}
+.souscription-form-title{
+  padding: 15px;
+  background: #ee8d32;
+  color: #fff;
+  padding: 5px 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 0;
+  font-size: 25px;
+  width: fit-content;
+  font-style: italic;
+}
+.souscription-form{
+  background: #fff;
+  padding: 50px;
+}
+.souscription-form label{
+  font-size: 18px;
+  font-weight: 500;
+}
+.souscription-form .form-group input{
+  border-radius: 10px;
+  border: 2px solid #b7b7b7;
+}
+.form-submit {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}

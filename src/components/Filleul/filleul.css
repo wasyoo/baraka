@@ -1,0 +1,29 @@
+.filleul-content {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  background: #ff8e32;
+  padding: 50px 100px;
+}
+
+.filleul-content p{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.filleul-content p:nth-child(1) strong{
+  font-size: 30px;
+  font-weight: 300;
+}
+.filleul-content p:nth-child(1) span>span{
+  color: red;
+  font-weight: bold;
+}
+
+.filleul-content p:nth-child(2) strong{
+  font-size: 30px;
+  color: red;
+  font-weight: bold;
+}
